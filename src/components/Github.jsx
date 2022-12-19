@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubCalendar from "react-github-calendar";
 
 const Github = () => {
   return (
@@ -26,6 +27,9 @@ const Github = () => {
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=aakarshpatel84&theme=radical"
             alt=""
           />
+        </div>
+        <div>
+          <GitHubCalendar username="aakarshpatel84" />
         </div>
       </div>
     </div>
