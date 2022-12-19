@@ -11,56 +11,83 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
-            Work
+            Projects
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
+          {/* <p className="py-6">// Check out some of my recent work</p> */}
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
+              className="w-full bg-black"
               key={index}
-              style={{ backgroundImage: `url(${item.image})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div "
+              // style={{ backgroundImage: `url(${item.image})` }}
             >
-              {/* Hover effect for images */}
-              <div className=" ">
-                <span className="p-4 bg-black text-white-700 font-bold text-sm ">
+              <img
+                src={item.image}
+                alt=""
+                style={{
+                  textAlign: "center",
+                  height: "260px",
+                  display: "block",
+                  margin: "auto",
+                }}
+              />
+              <div>
+                <p style={{ textAlign: "center", margin: "10px" }}>
                   {item.name}
-                </span>
-                <div className="pt-8 text-center ">
-                  {/* eslint-disable-next-line */}
-                  <a href={item.github} target="_blank">
-                    <button
-                      className="text-center rounded-lg px-4 py-3 m-2
-                       bg-black text-white-700 font-bold text-sm"
-                    >
-                      Code
-                    </button>
+                </p>
+              </div>
+              <div>
+                <button
+                  style={{
+                    paddimg: "2",
+                    marginTop: "5",
+                    backgroundColor: "grey",
+                    borderRadius: "5px",
+                    color: "white",
+                    fontWeight: "bold",
+                    marginLeft: "40px",
+                  }}
+                >
+                  <a
+                    className="m-5"
+                    href={item.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Gihub link
                   </a>
-                  {/* eslint-disable-next-line */}
-                  <a href={item.live} target="_blank">
-                    <button
-                      className="text-center rounded-lg px-4 py-3 m-2
-                       bg-black text-white-700 font-bold text-sm"
+                </button>
+                <span>
+                  <button
+                    style={{
+                      paddimg: "2",
+                      marginTop: "5",
+                      fontWeight: "bold",
+                      backgroundColor: "grey",
+                      color: "white",
+                      borderRadius: "5px",
+                      marginLeft: "10px",
+                    }}
+                  >
+                    <a
+                      className=" p-10"
+                      href={item.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live
-                    </button>
-                  </a>
-
-                  {/* ------------------------------------------------------- */}
-                  <p
-                    className="text-center rounded-lg px-21 py-1 m-1
-                       bg-black text-white-700 font-bold text-sm"
-                  >
-                    {item.detail}
-                  </p>
-
-                  {/* ---------------------------------------------------------- */}
-                </div>
+                    </a>
+                  </button>
+                </span>
+              </div>
+              <div>
+                <p style={{ textAlign: "center", padding: "5px" }}>
+                  {item.detail}
+                </p>
               </div>
             </div>
           ))}

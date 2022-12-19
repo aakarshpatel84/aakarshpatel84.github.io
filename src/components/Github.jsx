@@ -28,7 +28,8 @@ const Github = () => {
             alt=""
           />
         </div>
-        <div>
+        <div className="bg-black p-10 text-center">
+          Github Calender
           <GitHubCalendar username="aakarshpatel84" />
         </div>
       </div>

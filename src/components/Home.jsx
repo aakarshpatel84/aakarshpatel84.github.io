@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import resume from "./Aakarsh-Patel-Resume.pdf";
 
 const Home = () => {
   return (
@@ -26,12 +27,7 @@ const Home = () => {
         <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-            <a
-              href="Aakarsh-Patel-Resume.pdf"
-              download
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={resume} download target="_blank" rel="noopener noreferrer">
               Resume
             </a>
             <span className="group-hover:rotate-90 duration-300">
