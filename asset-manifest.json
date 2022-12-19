@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c148833.css",
-    "main.js": "/static/js/main.037f1bd5.js",
+    "main.css": "/static/css/main.73f6c13b.css",
+    "main.js": "/static/js/main.cfa85768.js",
     "static/media/books.jpg": "/static/media/books.911e6ba180f93ba5a794.jpg",
     "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/Aakarsh-Patel-Resume.pdf": "/static/media/Aakarsh-Patel-Resume.e47fbfd42aa42a3345b9.pdf",
+    "static/media/Home.png": "/static/media/Home.b488182dba8b58adf3ac.png",
     "static/media/redux.png": "/static/media/redux.010fcccb3cd77a85a1f7.png",
+    "static/media/monater.png": "/static/media/monater.0fc93005c2f031788add.png",
     "static/media/workImg.jpeg": "/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/bootstrap.png": "/static/media/bootstrap.d5210cdeab1bc94309c4.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -18,11 +21,11 @@
     "static/media/typescript.png": "/static/media/typescript.bb13ebd9561a6ee645c2.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.2c148833.css.map": "/static/css/main.2c148833.css.map",
-    "main.037f1bd5.js.map": "/static/js/main.037f1bd5.js.map"
+    "main.73f6c13b.css.map": "/static/css/main.73f6c13b.css.map",
+    "main.cfa85768.js.map": "/static/js/main.cfa85768.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c148833.css",
-    "static/js/main.037f1bd5.js"
+    "static/css/main.73f6c13b.css",
+    "static/js/main.cfa85768.js"
   ]
 }
