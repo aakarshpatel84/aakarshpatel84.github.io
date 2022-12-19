@@ -27,8 +27,8 @@ const Work = () => {
               flex justify-center text-center items-center mx-auto content-div "
             >
               {/* Hover effect for images */}
-              <div className="opacity-0 group-hover:opacity-100 ">
-                <span className="text-2xl font bold text-white tracking-wider ">
+              <div className=" ">
+                <span className="p-4 bg-black text-white-700 font-bold text-sm ">
                   {item.name}
                 </span>
                 <div className="pt-8 text-center ">
@@ -36,7 +36,7 @@ const Work = () => {
                   <a href={item.github} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-black text-white-700 font-bold text-sm"
                     >
                       Code
                     </button>
@@ -45,7 +45,7 @@ const Work = () => {
                   <a href={item.live} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-black text-white-700 font-bold text-sm"
                     >
                       Live
                     </button>
@@ -54,7 +54,7 @@ const Work = () => {
                   {/* ------------------------------------------------------- */}
                   <p
                     className="text-center rounded-lg px-21 py-1 m-1
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-black text-white-700 font-bold text-sm"
                   >
                     {item.detail}
                   </p>

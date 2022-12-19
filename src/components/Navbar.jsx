@@ -10,6 +10,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
 // import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
+import Resume from "./Resume";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -52,6 +53,9 @@ const Navbar = () => {
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li>
+          <Resume />
         </li>
       </ul>
 
@@ -97,6 +101,9 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li className="py-6 text-4xl">
+          <Resume />
+        </li>
       </ul>
 
       {/* Social icons */}
@@ -106,6 +113,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/aakarsh-patel-0b1422217/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -114,6 +123,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/aakarshpatel84"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -121,7 +132,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://mail.google.com/mail/u/0/#sent?compose=DmwnWtDpJsGknFccgNJLfjDQsmKbSntZsCtnSXddlmvzXZbJWrlfCBfpmVwGKSljvjbJNJmHHGPL"
+              href="mailto:aakarshpatel84@gmail.com "
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -137,8 +150,11 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4973a3]">
             <a
               className="flex justify-between items-center w-full text-greey-300"
-              href="Aakarsh_Patel_Resume.pdf"
+              href="Aakarsh-Patel-Resume.pdf"
+              attributes-list
               download
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <FaFileAlt size={30} />
             </a>

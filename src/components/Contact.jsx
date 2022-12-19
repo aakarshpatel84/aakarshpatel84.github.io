@@ -1,4 +1,7 @@
 import React from "react";
+import { BsLinkedin, BsTelephone } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -16,7 +19,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email -
+            Submit the form below or shoot me an email -
             aakarshpatel84@gmail.com
           </p>
         </div>
@@ -39,11 +42,47 @@ const Contact = () => {
           placeholder="Message"
         ></textarea>
         <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
-          <a href="https://mail.google.com/mail/u/0/#sent?compose=DmwnWtDpJsGknFccgNJLfjDQsmKbSntZsCtnSXddlmvzXZbJWrlfCBfpmVwGKSljvjbJNJmHHGPL">
-            Send Feedback
-          </a>
+          <a href="mailto:aakarshpatel84@gmail.com">Send Feedback</a>
         </button>
+        <div class="flex flex-row justify-center items-center p-4">
+          <h1 className="p-5">
+            <a
+              href="mailto:aakarshpatel84@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdOutlineMailOutline color="white" size={36} />
+            </a>
+          </h1>
+          <div className="p-5">
+            {" "}
+            <a
+              href="https://github.com/aakarshpatel84"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub color="white" size={30} />
+            </a>
+          </div>
+          <div className="p-5">
+            {" "}
+            <a href="tel:8770043650" target="_blank" rel="noopener noreferrer">
+              <BsTelephone color="white" size={29} />
+            </a>
+          </div>
+          <div className="p-5">
+            {" "}
+            <a
+              href="https://www.linkedin.com/in/aakarsh-patel-0b1422217/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsLinkedin color="white" size={29} />
+            </a>
+          </div>
+        </div>
       </form>
+      <br />
     </div>
   );
 };

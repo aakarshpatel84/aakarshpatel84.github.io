@@ -9,11 +9,23 @@ const Github = () => {
             Github
           </p>
         </div>
-        <div>
+        <div style={{ padding: "10px" }}>
           {/* <img
             src="https://rukminim1.flixcart.com/image/612/612/l3929ow0/book/j/c/r/something-i-m-waiting-to-tell-you-the-sequel-to-the-national-original-imagef8jtzwcdrtz.jpeg?q=70"
             alt=""
           /> */}
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=aakarshpatel84"
+            alt=""
+          />
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=aakarshpatel84"
+            alt=""
+          />
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=aakarshpatel84&theme=radical"
+            alt=""
+          />
         </div>
       </div>
     </div>
