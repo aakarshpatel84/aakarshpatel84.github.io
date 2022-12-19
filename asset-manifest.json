@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.73f6c13b.css",
-    "main.js": "/static/js/main.cfa85768.js",
+    "main.js": "/static/js/main.b31ef233.js",
     "static/media/books.jpg": "/static/media/books.911e6ba180f93ba5a794.jpg",
     "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/Aakarsh-Patel-Resume.pdf": "/static/media/Aakarsh-Patel-Resume.e47fbfd42aa42a3345b9.pdf",
@@ -22,10 +22,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.73f6c13b.css.map": "/static/css/main.73f6c13b.css.map",
-    "main.cfa85768.js.map": "/static/js/main.cfa85768.js.map"
+    "main.b31ef233.js.map": "/static/js/main.b31ef233.js.map"
   },
   "entrypoints": [
     "static/css/main.73f6c13b.css",
-    "static/js/main.cfa85768.js"
+    "static/js/main.b31ef233.js"
   ]
 }
