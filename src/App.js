@@ -11,7 +11,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      {document.title = "Aakarsh Patel"}
       <Home />
       <About />
       <Skills />
