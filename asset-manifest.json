@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.07aa8c25.css",
-    "main.js": "/static/js/main.3726aabe.js",
+    "main.css": "/static/css/main.8630c76f.css",
+    "main.js": "/static/js/main.c47bd10e.js",
     "static/media/books.jpg": "/static/media/books.911e6ba180f93ba5a794.jpg",
     "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
-    "static/media/Aakarsh-Patel-Resume.pdf": "/static/media/Aakarsh-Patel-Resume.630f5a7b44eb2a6ef0ef.pdf",
+    "static/media/fp04_452-Aakarsh-Patel-Resume.pdf": "/static/media/fp04_452-Aakarsh-Patel-Resume.630f5a7b44eb2a6ef0ef.pdf",
     "static/media/Home.png": "/static/media/Home.b488182dba8b58adf3ac.png",
     "static/media/redux.png": "/static/media/redux.010fcccb3cd77a85a1f7.png",
     "static/media/monater.png": "/static/media/monater.0fc93005c2f031788add.png",
@@ -21,11 +21,11 @@
     "static/media/typescript.png": "/static/media/typescript.bb13ebd9561a6ee645c2.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.07aa8c25.css.map": "/static/css/main.07aa8c25.css.map",
-    "main.3726aabe.js.map": "/static/js/main.3726aabe.js.map"
+    "main.8630c76f.css.map": "/static/css/main.8630c76f.css.map",
+    "main.c47bd10e.js.map": "/static/js/main.c47bd10e.js.map"
   },
   "entrypoints": [
-    "static/css/main.07aa8c25.css",
-    "static/js/main.3726aabe.js"
+    "static/css/main.8630c76f.css",
+    "static/js/main.c47bd10e.js"
   ]
 }
