@@ -1,0 +1,8 @@
+.contect {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #0a192f;
+
+  /* margin-top: 10px; */
+}
