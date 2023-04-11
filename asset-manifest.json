@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.19c15062.css",
-    "main.js": "/static/js/main.bfcf6529.js",
-    "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "main.css": "/static/css/main.b21ac7fb.css",
+    "main.js": "/static/js/main.f896478f.js",
+    "static/media/ideacart.png": "/static/media/ideacart.95a82380bcf0c9b4003d.png",
+    "static/media/monater.png": "/static/media/monater.13a15e164d20740380be.png",
+    "static/media/boat.png": "/static/media/boat.75c3354779fb6857b66b.png",
+    "static/media/hindutime.png": "/static/media/hindutime.0d6fe9e3430d4c5074e9.png",
+    "static/media/probackground.png": "/static/media/probackground.5b45da40622aaa029b44.png",
     "static/media/typescript.png": "/static/media/typescript.d362ac9034fd59687ef3.png",
     "static/media/redux.png": "/static/media/redux.010fcccb3cd77a85a1f7.png",
-    "static/media/monater.png": "/static/media/monater.0fc93005c2f031788add.png",
     "static/media/netlify.png": "/static/media/netlify.ccce58847f997c473352.png",
-    "static/media/workImg.jpeg": "/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/bootstrap.png": "/static/media/bootstrap.d5210cdeab1bc94309c4.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -20,11 +22,11 @@
     "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.19c15062.css.map": "/static/css/main.19c15062.css.map",
-    "main.bfcf6529.js.map": "/static/js/main.bfcf6529.js.map"
+    "main.b21ac7fb.css.map": "/static/css/main.b21ac7fb.css.map",
+    "main.f896478f.js.map": "/static/js/main.f896478f.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c15062.css",
-    "static/js/main.bfcf6529.js"
+    "static/css/main.b21ac7fb.css",
+    "static/js/main.f896478f.js"
   ]
 }
