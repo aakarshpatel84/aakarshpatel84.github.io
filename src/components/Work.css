@@ -1,0 +1,60 @@
+.btn {
+  display: flex;
+  font-size: 11px;
+  justify-content: space-around;
+  gap: 5px;
+  margin: auto;
+  width: auto;
+  /* justify-content: space-around; */
+  /* padding: 8px; */
+
+  /* backgroundColor: "grey",
+     borderRadius: "5px",
+     color: "white",
+     fontWeight: "bold",
+     marginLeft: "10px", */
+  /* background-color: grey; */
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+}
+.btn > div {
+  background-color: gray;
+  border-radius: 5px;
+  /* font-size: 15px; */
+}
+
+.flexTech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexTech > div {
+  margin: 5px;
+}
+.gridProject {
+  width: 100%;
+  /* padding: 15px; */
+  background-color: black;
+
+  background-image: url("../assets/probackground.png");
+  border: 2px solid wheat;
+  /* color: antiquewhite; */
+  /* padding: 5px; */
+  border-radius: 5px;
+  /* border: 1px solid red; */
+}
+.gridProject > img {
+  width: 100%;
+}
+a {
+  font-size: 10px;
+  /* display: flex; */
+  align-items: center;
+  /* color: aqua; */
+  /* height: -20px; */
+}
+/* button {
+  width: 95px;
+} */

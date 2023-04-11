@@ -8,11 +8,11 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
-// import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
-import resume from "./Aakarsh-Patel-Resume.pdf";
+// import resume from "../../public/fp04_452-Aakarsh-Patel-Resume.pdf";
 import Resume from "./Resume";
-
+import "./Navbar.css";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -22,14 +22,15 @@ const Navbar = () => {
       <div>
         {/* <img src={"#"} alt="Logo Image" style={{ width: "200px" }} /> */}
         <img
-          src="https://avatars.githubusercontent.com/u/103603587?v=4"
+          // src="https://avatars.githubusercontent.com/u/103603587?v=4"
+          src={Logo}
           alt=""
           style={{ borderRadius: "900px", width: "15%" }}
         />
       </div>
 
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul id="navRoute" className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -151,9 +152,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4973a3]">
             <a
               className="flex justify-between items-center w-full text-greey-300"
-              href={resume}
+              href="fp04_452-Aakarsh-Patel-Resume.pdf"
               attributes-list
-              download
+              download="fp04_452-Aakarsh-Patel-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

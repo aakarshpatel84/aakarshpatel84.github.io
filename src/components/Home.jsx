@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import resume from "./Aakarsh-Patel-Resume.pdf";
-
+// import resume from "./fp04_452-Aakarsh-Patel-Resume.pdf";
+// import "../../public/fp04_452-Aakarsh-Patel-Resume.pdf";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
@@ -27,8 +27,21 @@ const Home = () => {
         <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-            <a href={resume} download target="_blank" rel="noopener noreferrer">
-              Resume
+            <a
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1WIQ8OtR8-KIBaeXX84Xa6I8MjvmlsWh6/view?usp=sharing",
+                  "_blank"
+                )
+              }
+              href="fp04_452-Aakarsh-Patel-Resume.pdf"
+              attributes-list
+              download="fp04_452-Aakarsh-Patel-Resume.pdf"
+              rel="noreferrer"
+              target="_blank"
+            >
+              {" "}
+              Resume{" "}
             </a>
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 " />

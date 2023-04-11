@@ -8,17 +8,22 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className=" w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className=" w-full h-auto bg-[#0a192f] flex justify-center items-center p-4"
     >
       <form
         method="POST"
-        action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c"
+        action="https://getform.io/f/00694daa-2e41-4d72-bc09-211946f9e6db"
         className="flex flex-col max-w-[600px] w-full mt-8"
       >
-        <div style={{ marginTop: "50px" }}>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
-            Contact
-          </p>
+        <div>
+          <div style={{ marginTop: "100px" }}>
+            <p
+              style={{ float: "left", marginTop: "100px" }}
+              className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300"
+            >
+              Contact
+            </p>
+          </div>
         </div>
         {/* <div style={{ marginTop: "30px" }}> */}
         <input
